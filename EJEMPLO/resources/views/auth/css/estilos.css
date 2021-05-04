@@ -1,0 +1,93 @@
+
+
+/* https://htmlcolorcodes.com/es/ pagina para los colores */ 
+/*<!-- cometar en html -->*/
+/* // en javascrip */
+/*<br> es un salto de linea */
+*{background-color: rgb(91, 224, 30); box-sizing: border-box;}
+
+body{ background: #fff;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.LOL{
+    width: 600px;
+  margin: auto;
+  background: #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  color: black;
+  border: 1px solid black;
+
+}
+.for{
+    border: solid 5px black;
+    background-color: black;
+    display:inline-block;
+}
+.n1{
+ /*
+    font-size: 40px;
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 10px black;*/
+    display:inline-block;
+}
+.div{
+    /*COMANDO DIV*/
+    /**/
+    border: solid 5px black; /*NOS DEJA VER Y CAMBIAR EL COLOR DEL BORDE MAS TU GROSOR*/
+    padding:0px 15px; /*nos permite modificar los bordes dentro del contenedor el primer dato  es la altura el segundo los lados*/
+    margin: 0px; /*modifica los bordes de los lados  con respecto a todo el documento */
+    width: auto;   /*modifica el ancho del contenido*/
+    height: auto;    /*modifica el alto del documento pero no es muy recomendado dado que da una altura fija */
+    display:inline-block; /*lo combierte en bloque por lo que puede moverse donde queramos */
+      
+    background-color: silver;    /*color de fondo*/ 
+    
+    /*background:url(../img/MANGINI.jpg); >>>>sirve para colocar una imagen de fondo que no se repita
+
+    background-repeat:round;>>>>que no se repita la iamgen  
+    
+    background-attachment:scroll;>>>>
+    scroll  se movera con todo fixed no se movera 
+    background-position: center psicion  ;
+
+    opacity:0.4;
+    filter:alpha(opacity=50);  >>>> hace tranparente el fondo*/
+   
+
+}
+.n2{
+
+    display:inline-block;
+
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+    margin-top: 0;
+    background: blanchedalmond;
+  }
+  label, input,select {
+    width: 100%;
+    display: block;
+    font-size: 1.2em;
+  }
+  input, select {
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  input[type="submit"] {
+    width: 30%;
+    margin: auto;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    border: none;
+   
+  }
+  
